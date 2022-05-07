@@ -3,7 +3,7 @@ WORKDIR /app
 COPY . .
 RUN npx nrm use taobao
 RUN npm i -g pnpm
-RUN pnpm i --prefer-offline
+RUN pnpm i
 RUN pnpm run build
 FROM nginx:alpine
 LABEL MAINTAINER="WanderRabbits@1749094641@qq.com"

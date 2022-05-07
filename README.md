@@ -5,7 +5,7 @@
 Install dependencies,
 
 ```bash
-$ pnpm i
+$ pnpm i --prefer-offline
 ```
 
 Start the dev server,
